@@ -64,8 +64,6 @@ class Day12 extends Day {
       const stepValue = step
 
       if (x === end[0] && y === end[1]) {
-        console.log('E',count)
-
         if (count < shortestPath) shortestPath = count 
       } 
 
